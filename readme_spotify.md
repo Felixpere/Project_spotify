@@ -1,7 +1,7 @@
 
-# 🎵 Decoding the Hits: Analyzing the Spotify Top 50 (2019)
+#  Decoding the Hits: Analyzing the Spotify Top 50 (2019)
 
-## 🧠 Business Problem
+##  Business Problem
 
 With fierce competition in the music industry, data-driven decisions are crucial. 
 Resonance Studios challenged our team to uncover what musical traits define a global hit on Spotify.
@@ -15,7 +15,7 @@ We used SQL aggregations and visual analysis to test and support these hypothese
 
 ---
 
-## 📦 Dataset
+##  Dataset
 
 - **Source:** [Kaggle – Top 50 Spotify Songs 2019](https://www.kaggle.com/datasets/leonardopena/top50spotify2019)
 - **Records:** 50
@@ -23,7 +23,7 @@ We used SQL aggregations and visual analysis to test and support these hypothese
 
 ---
 
-## 🧹 Data Cleaning & Preparation
+##  Data Cleaning & Preparation
 
 Performed in `spotify_proyect_clean_04.ipynb` using Python (pandas):
 
@@ -35,7 +35,7 @@ Performed in `spotify_proyect_clean_04.ipynb` using Python (pandas):
 
 ---
 
-## 🧱 Database Structure
+##  Database Structure
 
 Implemented in MySQL using `project_spotify_tables.sql`.
 
@@ -50,7 +50,7 @@ Relational integrity enforced via foreign key constraints.
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python (pandas, seaborn, matplotlib)
 - MySQL + Workbench
@@ -60,7 +60,7 @@ Relational integrity enforced via foreign key constraints.
 
 ---
 
-## 📊 Exploratory Data Analysis & Visuals
+##  Exploratory Data Analysis & Visuals
 
 EDA was conducted using scatterplots, bar charts, histograms, and heatmaps.
 
@@ -72,7 +72,7 @@ We produced over 4 high-quality visualizations that revealed key genre and featu
 
 ---
 
-## 🧪 SQL Insights
+##  SQL Insights
 
 SQL queries performed:
 - JOINs between `track`, `artists`, and `genres`
@@ -83,7 +83,7 @@ SQL queries performed:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 project-root/
@@ -110,19 +110,19 @@ project-root/
 
 ---
 
-## ✅ Rubric Alignment
+##  Rubric Alignment
 
-- ✔️ Clear business problem + 3 hypotheses
-- ✔️ Full data cleaning and justification
-- ✔️ Functional database with foreign keys
-- ✔️ 5+ SQL queries with insights
-- ✔️ 4+ visualizations with interpretation
-- ✔️ Well-structured Git repo with daily commits
-- ✔️ Comprehensive README for reproducibility
-- ✔️ Google Slides presentation included
+-  Clear business problem + 3 hypotheses
+-  Full data cleaning and justification
+-  Functional database with foreign keys
+-  5+ SQL queries with insights
+-  4+ visualizations with interpretation
+-  Well-structured Git repo with daily commits
+-  Comprehensive README for reproducibility
+-  Google Slides presentation included
 
 ---
 
-## 🎤 Presentation Link
+##  Presentation Link
 
 📽️ **[Google Slides – Final Presentation](<https://docs.google.com/presentation/d/10UWSDfKleWiMfXCu0Amp-nke_DkmER0I/edit#slide=id.p1>)
